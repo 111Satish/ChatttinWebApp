@@ -59,4 +59,4 @@ jobs:
           app-name: 'ChatttinWebApp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_632C26AB009F46449DE4341482070F90 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_44C4879FF6BE4AA1B31A9F84014952B0 }}
