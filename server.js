@@ -26,7 +26,7 @@ app.use('/api/payment', paymentRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/messages", messageRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
